@@ -4,23 +4,27 @@
 bool test_normalize();
 void show_grid(t_grid u);
 t_grid normalize(t_grid u);
-t_grid zeros(int a,int u);
-int main (){
-    std::cout<<test_normalize() << std::endl;
+t_grid zeros(int a, int u);
+int main()
+{
+    std::cout << test_normalize() << std::endl;
     return 0;
 }
 
-bool test_normalize() {
-    //declare several variables on one line
-    std::vector < std::vector <float> > unnormalized, normalized, result; 
+bool test_normalize()
+{
+    // declare several variables on one line
+    std::vector<std::vector<float>> unnormalized, normalized, result;
 
     unnormalized = zeros(2, 2);
-    normalized = zeros(2,2);
+    normalized = zeros(2, 2);
 
-    int i,j;
+    int i, j;
 
-    for (i=0; i<2; i++) {
-        for(j=0; j<2; j++) {
+    for (i = 0; i < 2; i++)
+    {
+        for (j = 0; j < 2; j++)
+        {
             unnormalized[i][j] = 1.0;
             normalized[i][j] = 0.25;
         }
@@ -31,10 +35,12 @@ bool test_normalize() {
     bool correct;
     correct = close_enough(normalized, result);
 
-    if (correct) {
+    if (correct)
+    {
         std::cout << "! - normalize function worked correctly!\n";
     }
-    else {
+    else
+    {
         std::cout << "X - normalize function did not work correctly.\n";
         std::cout << "For the following input:\n\n";
         show_grid(unnormalized);

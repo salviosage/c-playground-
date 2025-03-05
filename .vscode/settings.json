@@ -3,6 +3,10 @@
         "vector": "cpp",
         "iosfwd": "cpp",
         "iterator": "cpp",
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "bitset": "cpp",
+        "unordered_map": "cpp",
+        "initializer_list": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }
