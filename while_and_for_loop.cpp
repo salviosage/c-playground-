@@ -12,17 +12,17 @@ int main()
     //      and less than 30, output the phrase 'medium'
     // If the iterator is between 30 inclusive and 70, output the phrase 'fast'
     // If the iterator is greater than 70 inclusive, output the phrase 'too fast'
-    for (int i = 0; i < 80; i++)
+    for (int i = 0; i < 8; i++)
     {
-        if (i < 10)
+        if (i < 1)
         {
             std::cout << "slow" << std::endl;
         }
-        else if (i < 30)
+        else if (i < 3)
         {
             std::cout << "medium" << std::endl;
         }
-        else if (i < 70)
+        else if (i < 7)
         {
             std::cout << "fast" << std::endl;
         }

@@ -1,4 +1,6 @@
 #include <iostream>
+using std::cout;
+using std::endl;
 
 int main()
 {
@@ -22,38 +24,56 @@ int main()
     int x = 5;
     if (x > 0)
     {
-        std::cout << "Positive Number" << std::endl;
+        cout << "Positive Number" << endl;
     }
     else if (x < 0)
     {
-        std::cout << "Negative Number" << std::endl;
+        cout << "Negative Number" << endl;
     }
     else
     {
-        std::cout << "Zero" << std::endl;
+        cout << "Zero" << endl;
     }
 
     char status = 'a';
 
     if (status == 'a')
     {
-        std::cout << "Accelerating" << std::endl;
+        cout << "Accelerating" << endl;
     }
     else if (status == 'b')
     {
-        std::cout << "Braking" << std::endl;
+        cout << "Braking" << endl;
     }
     else if (status == 'p')
     {
-        std::cout << "Parking" << std::endl;
+        cout << "Parking" << endl;
     }
     else if (status == 'n')
     {
-        std::cout << "Neutral" << std::endl;
+        cout << "Neutral" << endl;
     }
     else
     {
-        std::cout << "Unknown" << std::endl;
+        cout << "Unknown" << endl;
+    }
+
+    int i = 0;
+    while (i < 10)
+    {
+        if(i%2 == 0)
+        {
+            // print 2 is even or so 
+            cout << i << " is even" << endl;
+        }
+        else
+        {
+            cout << i << "is Odd" << endl;
+        }
+        i++;
     }
 
     return 0;
+
+}
+

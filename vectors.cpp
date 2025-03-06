@@ -12,6 +12,8 @@ int main ()
     vector<char> v_2 = {'4',6,3};
     vector <char> v_3;
     v_3 = {'1'};
+    v_1[1] = 5;
+    cout << v_1[1] << endl;
 
     cout << v_1[0] << endl << v_2[0] << endl << v_3[0] << endl;
 
