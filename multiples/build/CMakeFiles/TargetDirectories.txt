@@ -1,0 +1,3 @@
+/Users/salvi/Projects/AI/c-playground-/multiples/build/CMakeFiles/your_executable_name.dir
+/Users/salvi/Projects/AI/c-playground-/multiples/build/CMakeFiles/edit_cache.dir
+/Users/salvi/Projects/AI/c-playground-/multiples/build/CMakeFiles/rebuild_cache.dir
